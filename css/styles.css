@@ -1,11 +1,17 @@
-.heading, .footer{
-	display: block;
-	text-align: center;
-	background-color: lightblue;
-	margin: 0px;	
+.bg-primary{
+	background-color: lightblue !important;
 }
 
-.container {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-pills .nav-link:hover {
+	background-color: #17a2b8 !important;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+	color: #ffffff !important;
+	background-color: #6c757d !important;
+}
+
+/* .container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto;
@@ -15,7 +21,7 @@
 	grid-gap: 80px 30px;		
 	align-items: stretch;
 	text-align: center;
-}
+} */
 
 img {
 	width: 100%;
